@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb23609-b1c0-4f23-a235-c5051fa7a81a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js" beforeDir="false" afterPath="$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +14,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="workingWithIfElseAndSwitchCase.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workingWithIfElseAndSwitchCase.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="292" selection-start-line="291" selection-end-line="301" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1526159069734" expanded="true" signature="3851:3929" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -38,8 +59,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="305" />
-    <option name="y" value="361" />
+    <option name="x" value="186" />
+    <option name="y" value="442" />
     <option name="width" value="1750" />
     <option name="height" value="968" />
   </component>
@@ -95,7 +116,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="-7" width="1418" height="878" extended-state="7" />
+    <frame x="126" y="-7" width="1418" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
@@ -125,9 +146,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicTasks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -139,7 +157,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingWithIfElseAndSwitchCase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="292" selection-start-line="291" selection-end-line="301" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1526159069734" expanded="true" signature="3851:3929" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
