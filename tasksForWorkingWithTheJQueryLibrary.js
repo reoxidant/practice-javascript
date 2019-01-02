@@ -65,6 +65,7 @@ $('p:not(.www)').append(function(index){
     var befEl = $(this).before();
 });*/
 
+/*
 if($('.search-list>input:not(:checked)')){
     $('.search-list>input:eq(0)').attr('checked','checked');
-}
+}*/

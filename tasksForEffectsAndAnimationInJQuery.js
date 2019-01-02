@@ -93,6 +93,6 @@ $('#block').click(function(){
 
 // 9. Повторите поведение страницы (нажмите на блок несколько раз):
 
-$('#block').click(function(){
+/*$('#block').click(function(){
     $('#block').animate({left: '+=100'}, 1000);
-});
+});*/
