@@ -6,366 +6,126 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="/jquery-3.0.0.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
 </head>
-<body>
-<!--<div>
-    <a href="/yandex.ru">ссылка</a>
-    <br>
-    <a href="/yandex.ru">ссылка</a>
-    <br>
-    <a href="/yandex.ru">ссылка</a>
-</div>-->
-<!--<p id="test">
-    Тут ПараграФ
-</p>
-<input type="text" value="111">
-<input type="text" value="sdf">
-<input type="text" value="5546">-->
-<!--<p>28</p>
-<p>9334</p>
-<p>111</p>-->
-<!--<ul>
-    <li>Пункт</li>
-    <li>Пункт</li>
-</ul>-->
-<!--<button>Создать новую строку</button>-->
-<!--
-<table>
-    <tr>
-        <td>Имя:</td>
-        <td>Фамилия:</td>
-    </tr>
-    <tr>
-        <td>Геля</td>
-        <td>Чайкина</td>
-    </tr>
-</table>
-
-    <p>
-        Имя нового пользователя: <br>
-        <input name='name' type="text">
-    </p>
-    <p>
-        Фамилия нового пользователя: <br>
-        <input name='surname' type="text">
-    </p>
-    <button>Добавить</button>
-
--->
-<!--<a href="#" id="hide">свернуть</a>
-<a href="#" id="show">развернуть</a>
-<br>
-<div id="block" style="border: 1px solid black;">
-    <ul>
-        <li>1. пункт списка</li>
-        <li>2. пункт списка</li>
-        <li>3. пункт списка</li>
-        <li>4. пункт списка</li>
-        <li>5. пункт списка</li>
-        <li>6. пункт списка</li>
-        <li>7. пункт списка</li>
-        <li>8. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>10. пункт списка</li>
-        <li>11. пункт списка</li>
-        <li>12. пункт списка</li>
-        <li>13. пункт списка</li>
-        <li>14. пункт списка</li>
-        <li>15. пункт списка</li>
-    </ul>
-</div>-->
-
-<!--<a href="#" id="hide">свернуть</a>
-<br>
-<div id="block" style="border: 1px solid black;">
-    <ul>
-        <li>1. пункт списка</li>
-        <li>2. пункт списка</li>
-        <li>3. пункт списка</li>
-        <li>4. пункт списка</li>
-        <li>5. пункт списка</li>
-        <li>6. пункт списка</li>
-        <li>7. пункт списка</li>
-        <li>8. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>10. пункт списка</li>
-        <li>11. пункт списка</li>
-        <li>12. пункт списка</li>
-        <li>13. пункт списка</li>
-        <li>14. пункт списка</li>
-        <li>15. пункт списка</li>
-    </ul>
-</div>-->
-
-<!--<a href="#" id="fadeOut">изчезнуть</a>
-<a href="#" id="fadeIn">появится</a>
-<a href="#" id="fadeToDown">затемнить</a>
-<a href="#" id="fadeToUp">оттемнить</a>
-<br>
-<div id="block" style="border: 1px solid black;">
-    <ul>
-        <li>1. пункт списка</li>
-        <li>2. пункт списка</li>
-        <li>3. пункт списка</li>
-        <li>4. пункт списка</li>
-        <li>5. пункт списка</li>
-        <li>6. пункт списка</li>
-        <li>7. пункт списка</li>
-        <li>8. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>10. пункт списка</li>
-        <li>11. пункт списка</li>
-        <li>12. пункт списка</li>
-        <li>13. пункт списка</li>
-        <li>14. пункт списка</li>
-        <li>15. пункт списка</li>
-    </ul>
-</div>-->
-
-<!--<a href="#" id="fadeToggle">спрятать</a>
-<br>
-<div id="block" style="border: 1px solid black;">
-    <ul>
-        <li>1. пункт списка</li>
-        <li>2. пункт списка</li>
-        <li>3. пункт списка</li>
-        <li>4. пункт списка</li>
-        <li>5. пункт списка</li>
-        <li>6. пункт списка</li>
-        <li>7. пункт списка</li>
-        <li>8. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>10. пункт списка</li>
-        <li>11. пункт списка</li>
-        <li>12. пункт списка</li>
-        <li>13. пункт списка</li>
-        <li>14. пункт списка</li>
-        <li>15. пункт списка</li>
-    </ul>
-</div>-->
-
-<!--<a href="#" id="hide">исчезнуть</a>
-<a href="#" id="show">появиться</a>
-<br>
-<div id="block" style="border: 1px solid black; width: 200px;">
-    <ul>
-        <li>1. пункт списка</li>
-        <li>2. пункт списка</li>
-        <li>3. пункт списка</li>
-        <li>4. пункт списка</li>
-        <li>5. пункт списка</li>
-        <li>6. пункт списка</li>
-        <li>7. пункт списка</li>
-        <li>8. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>9. пункт списка</li>
-        <li>10. пункт списка</li>
-        <li>11. пункт списка</li>
-        <li>12. пункт списка</li>
-        <li>13. пункт списка</li>
-        <li>14. пункт списка</li>
-        <li>15. пункт списка</li>
-    </ul>
-</div>-->
-
-<!--<div id="block" style="position: absolute; height: 150px; width: 150px; border: 1px solid black; ">
-    <h2>Заголовок1</h2>
-    <h2>Заголовок2</h2>
-    <p id="test">урен</p>
-    <p>хуй</p>
-    <h2>Заголовок3</h2>
-    <h2>Заголовок4</h2>
-    <div>
-        <p>Пыр пыр</p>
-        <h2>Заголовок</h2>
-    </div>-->
-<!--<input type="text" value="1">
-    <input type="text" value="2">
-    <input type="text" value="3">
-    <input type="text" value="4">
-    <input type="text" value="5">
-</div>-->
-
-<!--<div>
-    <b>Текст</b>
-    <strong>1Содержимое</strong>
-    <p>2Содержимое</p>
-    <b>3Содержимое</b>
-    <h1 id="test">Заголовок</h1>
-</div>-->
-<!--
-
-<ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>6</li>
-    <li>7</li>
-    <li>8</li>
-    <li>9</li>
-    <b>
-        <li>10</li>
-    </b>
-    <li>11</li>
-    <li>12</li>
-</ul>
--->
-
-<!--<p class="www">1</p>
-<p>
-    <b>Текст</b>
-</p>
-<p class="www">
-    <b>Текст</b>
-</p>
-<p>2</p>
-<h2>Заголовок</h2>
-<p>3</p>
-<p class="www">4</p>
-<p>5</p>
-<p></p>-->
-
-<!--
-<input type="text" value="12">
-<input type="text" value="3">
-<input type="text" value="92">
--->
-
-<!--<input type="checkbox" disabled>-->
-<!--<input type="checkbox">-->
-<!--<input type="checkbox" disabled>-->
-<!--<input type="checkbox">-->
-<!--<p>3</p>
-<p>2</p>
-<p>1</p>
-<p id="test">ХУЙЛЫК</p>
-<p>1</p>
-<p>2</p>
-<p>3</p>
-<li>li1</li>
-<li>li2</li>
-<li>li3</li>-->
-<!--<div class="www">
-    <p>1</p>
-    <div class="lol">
-        <div id="test">32</div>
-    </div>
-    <p>2</p>
+<style>
+    a {
+        color: orange;
+        text-decoration: none;
+    }
+</style>
+<body style="text-align: center;
+    padding: 50px 0;
+    overflow: hidden;">
+<!--<div id="block1" style="display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    background: #FF8000;
+    color: white;">
+    <h2 style="margin-top: 0px;">1. Нажми  на меня</h2>
+    <ol style="margin: 0;
+    padding-left: 10px;">
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+    </ol>
 </div>
-<div class="www">
+<div id="block2" style="
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    background: #FF8000;
+    color: white;"></div>-->
+<!--<h2 style="margin-top: 0px;">
+    <a href="#" id="link" style="color: orange; text-decoration: none;">Наведи на меня</a>
+</h2>
+<div id="block1" style="
+display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    background: #FF8000;
+    color: white;">
+    <ol style="margin: 0;
+    padding-left: 10px;">
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+        <li>пункт</li>
+    </ol>
+</div>-->
+<!--<div id="accordion">
+    <h3><a href="#">Первый заголовок</a></h3>
+    <div>
+        Нажмите по заголовку закрытой вкладки и она развернется, открытая вкладка при этом свернется. По умолчанию, все вкладки будут иметь одинаковую высоту (такую, чтобы содержимое любой из вкладок могло бы туда вместиться).
+    </div>
+    <h3><a href="#">Второй заголовок</a></h3>
+    <div>Содержимое для второго заголовка</div>
+    <h3><a href="#">Третий заголовок</a></h3>
+    <div>
+        Нажмите по заголовку закрытой вкладки и она развернется, открытая вкладка при этом свернется. По умолчанию, все вкладки будут иметь одинаковую высоту (такую, чтобы содержимое любой из вкладок могло бы туда вместиться).
+    </div>
+</div>-->
+<!--<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">Заголовок первой вкладки</a></li>
+        <li><a href="#tabs-2">Заголовок второй вкладки</a></li>
+        <li><a href="#tabs-3">Заголовок третей вкладки</a></li>
+    </ul>
+    <div id="tabs-1">
+        <p>Содержимое первой вкладки</p>
+    </div>
+    <div id="tabs-2">
+        <p>Содержимое второй вкладки</p>
+    </div>
+    <div id="tabs-3">
+        <p>Содержимое третей вкладки</p>
+    </div>
+</div>-->
+<!--<a href="" id="set-date">Установить дату в 10.12.2012</a>
+<br>
+<a href="" id="show">Открыть календарь</a>
+<br>
+<a href="" id="hide">Закрыть календарь</a>
+<br>
+<p>Дата
+    <input type="text" id="datepicker">
+</p>-->
+<!--<p>
+    <a href="" title="Здесь текст какой то">Наведи на меня мышкой.</a>
+</p>-->
 
+<!--<div id="dialog" title="Простое окно">
+    <p>
+        This is the default dialog which is useful for
+        displaying information. The dialog window can be
+        moved, resized and closed with the 'x' icon.
+    </p>
+</div>-->
+<!--<a href="#" id="show">Показать окно!</a>
+<br>
+<a href="#" id="hide">Спрятать окно!</a>
+<br>
+<div id="dialog" title="Простое окно">
+    <p>
+        Удалить все файлы с вашего комьютера?
+    </p>
 </div>-->
 
-<!--<li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-<li>5</li>
-<li>6</li>
-<li>7</li>
-<li>8</li>
-<li>9</li>
-<li>10</li>
-<li>11</li>
-<li>12</li>
-<li>13</li>
-<li>14</li>
-<li>15</li>-->
-
-<!--<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">
-<input type="checkbox">-->
-
-<!--<input type="text" value="111111" placeholder="">-->
-
-<!--<a href="http://yandex.ru/">fdsf</a>-->
-<!--<input type="text">
-<input type="checkbox" value="1">
-<input type="checkbox" value="2">
-<input type="checkbox" value="3">
-<input type="checkbox" value="4">
-<input type="checkbox" value="5">
-<input type="checkbox" value="6">
-<input type="checkbox" value="7">
-<input type="checkbox" value="8">
-<input type="checkbox" value="9">-->
-<!--<li>1</li>
-<li class="www">2</li>
-<li>3</li>
-<li class="www">4</li>
-<li>5</li>
-<li class="bbb">6</li>
-<li class="bbb">7</li>
-<li>8</li>
-<li>9</li>
-<li class="www">10</li>
-<li>11</li>
-<li>12</li>
-<li class="www">13</li>
-<li class="bbb">14</li>
-<li class="www">15</li>
-<div>123</div>
-<div>456</div>
-<div>789</div>
-<div>0-=</div>-->
-<!--
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div id="test">test</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
--->
-
-<!--<h1>Я</h1>
-<h5>ТУТ</h5>
-<h3>ГЛАВНЫЙ</h3>
-<div class=".www"><p>1</p><p id="test">test</p></div>
-<p class="nana">2</p>
-<h2>h2 header</h2>
-<p class="www">3</p>
-<p><b>4</b></p>
-<p class="nana">5</p>
-<h2>h2 header</h2>-->
-<!--<div id="test">
-    <p class="nana">1</p>
-    <p class="www">2</p>
-    <p class="nana">3</p>
-</div>-->
-<!--<div class="search-list">
-    <input type="radio" name="it" value="1">все
-    <input type="radio" name="it" value="2">первый товар
-    <input type="radio" name="it" value="3">второй товар
-    <input type="radio" name="it" value="4">третий товар
-    <input type="radio" name="it" value="5">четвертый товар
-</div>-->
 <p>
-    <select name='options'>
-        <option value='1'>Option 1</option>
-        <option value='2'>Option 2</option>
-        <option value='3'>Option 3</option>
-        <option value='4'>Option 4</option>
-        <option value='5'>Option 5</option>
-    </select>
-    <input type="radio" value="1">
-    <input type="radio" value="2">
-    <input type="radio" value="3">
-    <input type="radio" value="4">
-    <input type="radio" value="5">
-</p>
-
-<script src="tasksForPracticingForJQueryLibrary.js"></script>
+    Введите страну (Беларусь, Бельгия, Бирма)
+    <br>
+    <br>
+    <label for="country"></label><input type="text" id="country"></p>
+<script src="tasksForWorkingWithLibraryJQuery.js"></script>
 </body>
 </html>
