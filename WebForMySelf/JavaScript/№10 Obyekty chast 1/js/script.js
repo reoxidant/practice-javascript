@@ -28,7 +28,7 @@ var obj1 = {
 	}
 };
 
-//TODO альтернативные способы создания обьектов date()
+//TODO альтернативные способы создания обьектов date(), array(), object()
  var date = new Date(); // соответсвует Date.prototype - наследуем свойства обьекта Date и род Object, при создании своего обьекта
  var arr = new Array(); // соответсвует [] Array.prototype - наследуем свойства обьекта Array и род Object, при создании своего обьекта
  var obj2 = new Object();// соответсвует var obj2 = {};
