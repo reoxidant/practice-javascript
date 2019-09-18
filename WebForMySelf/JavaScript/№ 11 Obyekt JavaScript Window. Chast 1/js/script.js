@@ -83,12 +83,14 @@ window.onload = function() {
 	var h1 = document.getElementById('header');
 	//TODO указываем для элемента h1 событие клика, записав в свойстве onclick функцию.
 	h1.onclick = function () {
+		//TODO отменяем ранее установленный вызов функции setTimeOut()
 		clearTimeout(intStop);
 	}
-	
+	//TODO функция смены цвета в стилях для елемента h1
 	function changeColor() {
 		
 		///color
+		//TODO если цвет заголовка черный, то измени цвет на белый, иначе на черный
 		if(h1.style.color == 'black') {
 			h1.style.color = 'white';
 		}
@@ -96,7 +98,7 @@ window.onload = function() {
 			h1.style.color = 'black';
 		}
 	}
-	
+	//TODO установливаем 
 	var intStop = setInterval(changeColor, 500);
 	/*
 	alert();
