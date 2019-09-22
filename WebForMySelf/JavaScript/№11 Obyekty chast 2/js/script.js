@@ -42,7 +42,7 @@ iteration(obj1);*/
 }*/
 
 /*
-//TODO слева свойство должно быть именно указана как строка, справа обьект.
+//TODO ищем свойство в обьекте, слева свойство должно быть именно указана как строка, справа обьект.
 if('one' in obj2)   {
 	alert(obj1.one);//true, выводется hello, потому что дочерний элемент имеет свойсто one
 }
@@ -130,7 +130,7 @@ var o = {
 		
 		this.prop1 += value;
 	}
-}
+};
 
 //TODO Увеличиваем свойство за счет меода записи на 5 значении выше
 /*o.summ = 5; 
@@ -143,7 +143,8 @@ o.summ = 5;
 console.log(o.summ);*/
 
 //TODO к обьекту "О" свойства prop3 добавим атрубуты
-// value-значение, writable-запись,
+// value-значение,
+// writable-запись,
 // enumerable - доступность свойства для перечисление foreach, если false то не отображается
 // configurate - разрешнить или запретить свойства для настройки
 
@@ -170,25 +171,22 @@ Object.defineProperty(o, 'prop3', {
 
 //TODO сформируем свойства обьекта из параметров переданных в функцию People
 function People(name, age) {
-	
 	this.name  = name;
 	this.age  = age;
 	//TODO Вернет сумму друх переданых параметров
 	/*this.summ = function() {
 		return this.name + ' - ' + this.age;
 	}*/
-	
 }
 
 var Ben = new People('Ben',18);
 
 //TODO укажем прототип для обьекта ben
 People.prototype = obj1;
-//TODO создадим новое свойство в которой будет записана
-// функция
+//TODO создадим новое свойство в которой будет записана функция
 People.prototype.summ = function() {
 		return this.name + ' - ' + this.age;
-}
+};
 //TODO вызываем метод summ у родительского обьекта obj1, который для него неопределен
 console.log(obj1.summ());// вернет undefined
 
