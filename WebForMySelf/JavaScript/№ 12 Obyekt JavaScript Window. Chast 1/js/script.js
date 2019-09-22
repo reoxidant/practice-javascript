@@ -5,11 +5,11 @@ window.onload = function() {
 	var wrap = document.getElementById('popup_overlay');
 	//TODO написали функцию поиска элемента с id popup_close у обьекта document
 	var closeB = document.getElementById('popup_close');
-	//TODO обратились к свойству onclick у обьекта элемента с id popup_close и присвоили функциию, повесив туда событие.э
+	//TODO обратились к свойству onclick у обьекта элемента с id popup_close и присвоили функциию, повесив туда событие.
 	closeB.onclick = popupClose;
 	//TODO написали функцию поиска элемента с id popupIn(кнопка показать) у обьекта document
 	var inP = document.getElementById('popupIn');
-	//TODO обратились к свойству onclick у обьекта элемента с id popup_close и присвоили функциию, повесив туда событие.э
+	//TODO обратились к свойству onclick у обьекта элемента с id popup_close и присвоили функциию, повесив туда событие.
 	inP.onclick = popup;
 	
 	
@@ -104,17 +104,12 @@ window.onload = function() {
 	alert();
 	confirm();
 	prompt();*/
-	
-	
 	do {
 		var str = prompt("Введите сообщение");
 		
 		var result = confirm("Вы ввели  " + str + ". Нажмите на ОК для продолжения, или Cancel для повтора.");// OK Cancel
 	}
 	while(!result)
-	
 	alert(str);
-	
-	
-}
+};
 
