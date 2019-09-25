@@ -1,22 +1,25 @@
-
+//TODO С помощью метода open можно открыть окно в веб браузере
 function myOpen() {
+	//TODO чаще всего браузер будет блокировать работу метода open,
+	// поэтому мы будет получать доступ к методу через клик на элемент страницы.
 	window.open('http://yandex.ru');
 }
 
 
-
+//TODO сформировать функцию после загрузки страницы
 window.onload = function () {
 	
 	console.log(window.name);
 	
 	var w1 = null;
-	
+	//TODO Создадим переменную которая ссылается на элемент документа
 	var openWindow = document.getElementById('openWindow');
+	//TODO По клику на указаный элемент создается новое окно
 	openWindow.onclick = function () {
 		
 		
 		w1 = window.open(
-					'w1.html',
+					'w1.html',//TODO страничка перехода
 					'w1',
 					"width=420,height=220,resizable=no,scrollbars=yes,status=no,left=500,top=300,menubar=no,toolbar=no,location=no"
 					
