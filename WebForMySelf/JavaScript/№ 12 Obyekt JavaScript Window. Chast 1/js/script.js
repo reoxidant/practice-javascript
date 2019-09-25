@@ -98,7 +98,7 @@ window.onload = function() {
 			h1.style.color = 'black';
 		}
 	}
-	//TODO установливаем 
+	//TODO установливаем интервал повтора функции через каждые 500 милиссекунд
 	var intStop = setInterval(changeColor, 500);
 	/*
 	alert();
