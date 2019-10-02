@@ -63,12 +63,17 @@ window.onload = function () {
 		//TODO Обращается в тому же iframe, но только из контекста frames с айди ['f1'] и вызываем метод getParentFunc()
 		// Функция которого откроет в новой вкладке страницу yandex.
 		//window.frames['f1'].getParentFunc();
-		
+
+		//TODO Сфокусируемся на окне вызванного и созданого обьекта типа window
 		//w1.focus();
+		//TODO Позволяет напечатать содержимое указаного окна вызваного обьекта window
 		//w1.print();
+		//TODO Перемещает указаное окно по скролу по вертикали и по горизонтали на некоторое колличество пикселей.
 		//w1.scrollBy(50,50);
+		//TODO Перемещает указаное окно по скролу, передав в параметрах функции два значения,
+		// которые и определят положение окна в скролле
 		//w1.scrollTo(50,50);
-		
+		//TODO
 		//w1.moveBy(50,50);
 		//w1.moveTo(50,50);
 		
@@ -78,16 +83,13 @@ window.onload = function () {
 		
 		alert(w1.innerHeight + '|' + w1.innerWidth);
 		alert(w1.outerHeight + '|' + w1.outerWidth);
-		
-		
 	}
 	
 	var f = document.getElementById('function');
 	f.onclick = function() {
 		getMyVar();
 	}
-
-}
+};
 
 
 
