@@ -26,8 +26,6 @@ function myOpen() {
     closeWindowBtn.onclick = function(){
         if(typeof w1 == 'object'){
             w1.close();
-            alert(111);
-            console.log(w1)
             console.log(w1.closed);
         }
     };
@@ -44,7 +42,7 @@ function myOpen() {
         var str = "Hello World!";
         alert(str);
         //TODO Откорректировать строку Hello World!
-        str = w1.editMyStr();
+        w1.editMyStr();
         alert(str);
         //TODO В окне f1 изменить контент с помощью функции getAlert()
 
