@@ -5,4 +5,3 @@ function editMyVar() {
 	//TODO вернет измененное значение переменной myVar
 	return window.opener.myVar = 50;
 }
-

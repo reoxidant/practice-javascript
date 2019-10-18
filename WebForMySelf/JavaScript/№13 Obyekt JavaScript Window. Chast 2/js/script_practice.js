@@ -1,63 +1,54 @@
-//TODO С помощью метода open можно открыть окно в веб браузере
+
+
 function myOpen() {
-    //TODO чаще всего браузер будет блокировать работу метода open,
-    // поэтому мы будет получать доступ к методу через клик на элемент страницы.
-
+    window.open('https://apple.ru')
 }
+    //TODO Нужно сделать чтобы по айдишнику openWindow килкали и создавалось окно с параметрами
+    // высота 220 ширина 420 фиксированное, без скролла, без статуса, влево на 500, вверх на 300, без адресной строки, б
+    // без меню, без кнопок навигации.
+    window.onload = function () {
+        var w1 = null;
+        var openWindow = document.getElementById('openWindow');
 
-
-//TODO сформировать функцию после загрузки страницы
-window.onload = function () {
-
-
-    //TODO Создадим переменную которая ссылается на элемент документа
-
-    //TODO По клику на указаный элемент создается новое окно
-    openWindow.onclick = function () {
-
-
-        w1 = window.open(
-            '',//TODO страничка перехода
-            '',//TODO Название окна
-
-            //TODO Атрибуты передаваемого окна
-            ""
-
-        );
-
-        //TODO покажет обьект window, который открыл данное окно через свойство opener
-
+    openWindow.onclick = function(){
+       w1 = window.open(
+           "w1.html",
+           "test",
+           "height=220, width=420, scrollbars=yes, status=no, left=500, top=300, location=no, menubar=no, toolbar=no"
+       );
     };
-    //TODO Найдем элемент в документе и запишем ссылку на обьек closeWindow в переменную closeWindow
 
-    //TODO Создадим событие на обьект closeWindow по нажатия кнопки
-    closeWindow.onclick = function () {
-        //TODO в теле функции проверяем, если тип обьекта w1 обьект, то закроем методом close, данное окно
-        if(typeof w1 == 'object') {
-            //TODO проверим статус данного окна в свойстве close, обьекта w1
+    //TODO На кнопку вешаем событие, при которой идет проверка на обьект открытого окна,
+    // если проверка удачна, то закрывает окно и проверяет статус, что окно закрыто.
 
+    var closeWindowBtn = document.getElementById('closeWindow');
+
+    closeWindowBtn.onclick = function(){
+        if(typeof w1 == 'object'){
+            w1.close();
+            alert(111);
+            console.log(w1)
+            console.log(w1.closed);
         }
-
     };
-    //TODO Создадим переменную myVar, запишем Строку = "Hello world!"
 
-    //TODO Создадим функцию getMyVar для получению параметров нашего окна и внещних её переменых
-    function getMyVar() {
-        //TODO В теле выведем переменую myVar, до того, как её отредактировать функцией editMyVar
+    // console.log(w1);
 
-        //TODO Создадим функцию editMyVar где, отредактируем переменую родительского окна
+    //TODO Создадим переменную со строкой Hello World!
 
-        //TODO Выведем переменую, которая была отредактирована, окном w1
 
-        //TODO Найдем элемент в документе с айди f1, который является iframe
 
-        //TODO Вызовем alert айфрейма с айди f1 с помощью свойства contentWindow - указываем именно нужный iframe
-        // и дальше описаный в нем метод getAlert(), который в файле scriptF.js
+    //TODO Создадим функцию getMyVar для получению параметров нашего окна и внешних её переменых
+    function getMyVar(){
+        //TODO вывести значение переменной в сплывающем окне.
+        var str = "Hello World!";
+        alert(str);
+        //TODO Откорректировать строку Hello World!
+        str = w1.editMyStr();
+        alert(str);
+        //TODO В окне f1 изменить контент с помощью функции getAlert()
 
-        //TODO Обращается в тому же iframe, но только из контекста frames с айди ['f1'] и вызываем метод getAlert()
-
-        //TODO Обращается в тому же iframe, но только из контекста frames с айди ['f1'] и вызываем метод getParentFunc()
-        // Функция которого откроет в новой вкладке страницу yandex.
+        //TODO В окен f1 обратимся к родителькому окну где находится функция myOpen и вызовем её еще раз.
 
         //TODO Сфокусируемся на окне вызванного и созданого обьекта типа window
 
@@ -81,8 +72,13 @@ window.onload = function () {
         //TODO Выведем внешнию высоту созданного окна и внешнию ширину созданного окна.
 
     }
-    //TODO Создадим переменную в которой передадим прототип обьекта документа с айди function
 
-    //TODO Прописываем в свойствах обьекта событие onclick при срабатывании которого, вызывается функция getMyVar()
+    //TODO при клике на клавишу функции вызываем функцию getMyVar
+
+    var f = document.getElementById('function');
+
+    f.onclick = function(){
+        getMyVar();
+    }
 
 };

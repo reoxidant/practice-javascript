@@ -5,19 +5,17 @@ function myOpen() {
 	window.open('http://yandex.ru');
 }
 
-
 //TODO сформировать функцию после загрузки страницы
 window.onload = function () {
-	
+
 	console.log(window.name);
 	
 	var w1 = null;
-	//TODO Создадим переменную которая ссылается на элемент документа
+	//TODO Создадим переменную которая ссылается на элемент документа c айди openWindow
 	var openWindow = document.getElementById('openWindow');
 	//TODO По клику на указаный элемент создается новое окно
 	openWindow.onclick = function () {
-		
-		
+
 		w1 = window.open(
 					'w1.html',//TODO страничка перехода
 					'w1',//TODO Название окна
@@ -26,7 +24,6 @@ window.onload = function () {
 					"width=420,height=220,resizable=no,scrollbars=yes,status=no,left=500,top=300,menubar=no,toolbar=no,location=no"
 					
 					);
-					
 		//TODO покажет обьект window, который открыл данное окно через свойство opener
 		console.log(w1.opener);
 	};
@@ -37,6 +34,7 @@ window.onload = function () {
 		//TODO в теле функции проверяем, если тип обьекта w1 обьект, то закроем методом close, данное окно
 		if(typeof w1 == 'object') {
 			w1.close();
+			w1.editMyVar();
 			//TODO проверим статус данного окна в свойстве close, обьекта w1
 			console.log(w1.closed);
 		}
@@ -48,7 +46,7 @@ window.onload = function () {
 	function getMyVar() {
 		//TODO В теле выведем переменую myVar, до того, как её отредактировать функцией editMyVar
 		/*alert(myVar);
-		//TODO Создадим функцию editMyVar где, отредактируем переменую родительского окна
+		TODO Создадим функцию editMyVar где, отредактируем переменую родительского окна
 		myVar = w1.editMyVar();
 		//TODO Выведем переменую, которая была отредактирована, окном w1
 		alert(myVar);*/

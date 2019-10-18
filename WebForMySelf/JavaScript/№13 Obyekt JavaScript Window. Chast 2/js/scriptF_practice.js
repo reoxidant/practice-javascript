@@ -1,6 +1,6 @@
 //TODO Вызовет фразу I am Frame во вспывающей окне
 function getAlert() {
-
+    alert('I am Frame!');
 }
 
 
