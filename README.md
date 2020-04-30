@@ -1,12 +1,10 @@
-#Practice Javascript learning through video courses and books.
+# Practice Javascript learning through video courses and books.
 
 # Ecmascript 6
 
-project.es6.javascript
+Ecmascript 6 was created to analyze topics on key innovations in ecmascript 2015.
 
-This project was created to analyze topics on key innovations in ecmascript 2015.
-
-# Project content
+# Content Ecmascript 6
 
 - let and const
 - arrow functions
