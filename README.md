@@ -1,4 +1,4 @@
-# Practice Javascript learning through video courses.
+# Practice Javascript learning through video courses and documentation.
 
 # Ecmascript 6
 
