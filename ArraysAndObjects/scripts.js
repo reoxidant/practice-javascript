@@ -47,8 +47,6 @@ alert(arr[1][0]);*/
  let lang_value = {'ru':['Понедельник','Вторник', 'Среда','Четверг','Пятница', 'Суббота', 'Воскрещения'],
      'eng':['Monday','Tuesday','Wednesday','Thursday', 'Friday','Saturday','Sunday']};
 
- function choose day_of_weekemsssss
-
 
 
 
